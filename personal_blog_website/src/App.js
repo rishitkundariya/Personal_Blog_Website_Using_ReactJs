@@ -1,11 +1,13 @@
-import logo from "./logo.svg";
 import "./App.css";
-import conf from "./conf/config";
+import { Header, Footer } from "./components";
+import { Outlet } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <h1>Rishit Kundariya </h1>
-    </div>
+    <>
+      <Header />
+      <Outlet />
+      <Footer />
+    </>
   );
 }
 
