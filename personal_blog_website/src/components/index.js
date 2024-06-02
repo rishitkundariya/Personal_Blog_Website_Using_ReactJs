@@ -9,8 +9,17 @@ import Select from "./Select";
 import RTE from "./RTE";
 import Login from "./Login";
 import SignUp from "./SignUp";
-import Postcard from "./PostCard";
+import PostCard from "./PostCard";
 import PostForm from "./post-form/PostForm";
+import AuthLayout from "./AuthLayout";
+import Home from "./pages/Home";
+import EditPost from "./pages/EditPost";
+import AllPosts from "./pages/AllPosts";
+import AddPost from "./pages/AddPost";
+import LoginPage from "./pages/Login";
+import Post from "./pages/Post";
+import Signup from "./pages/Signup";
+
 export {
   Header,
   Footer,
@@ -23,6 +32,14 @@ export {
   RTE,
   Login,
   SignUp,
-  Postcard,
+  PostCard,
   PostForm,
+  AuthLayout,
+  Home,
+  EditPost,
+  AllPosts,
+  AddPost,
+  LoginPage,
+  Post,
+  Signup,
 };

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import DataBaseServices from "../../appwrite/configuration";
 import FileUploadService from "../../appwrite/fileupload";
-import { Button, Container } from "../components";
+import { Button, Container } from "../index";
 import parse from "html-react-parser";
 import { useSelector } from "react-redux";
 
